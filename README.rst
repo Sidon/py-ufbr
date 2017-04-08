@@ -24,6 +24,14 @@ Environment:
     linux
 
 
+Install:
+########
+
+::
+
+    pip install pyufbr
+
+
 Usage
 #####
 
