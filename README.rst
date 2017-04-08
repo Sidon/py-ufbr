@@ -28,7 +28,7 @@ Usage
 #####
 
 
->>> from pyUFbr import ufbr
+>>> from pyUFbr.baseuf import ufbr
 
 
 list_uf (Propriedade)
