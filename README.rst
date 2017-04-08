@@ -35,7 +35,7 @@ list_uf (Propriedade)
 *********************
 Retorna uma lista com todos os estados em ordem alfabética (siglas)
 
-Sintaxe: ufbr.list
+Sintaxe: ufbr.list_uf
 
 |
 
@@ -49,7 +49,8 @@ Sintaxe: ufbr.list
 
 list_cidades (Método)
 *********************
-Retorna lista com todas as cidades de um estado
+Retorna lista com todas as cidades de um estado.
+
 sintaxe: ufbr.list_cidades('XX'), ufbr.list_cidades(sigla='XX'), ufbr.list_cidades(codigo='NN')
 
 |
@@ -78,6 +79,7 @@ codigo = Codigo do estado no IBGE, por exemplo: Amapá = 12,  Acre = 16
 get_cidade (Método)
 *******************
 Retorna uma tupla (namedtupla) com o nome e o código da cidade
+
 sintaxe: ufbr.get_cidade('São Paulo')
 
 |
